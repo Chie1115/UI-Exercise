@@ -1,22 +1,25 @@
+import AsideItem from './AsideItem';
+import MainItem from './MainItem';
+
 const Body = () => {
     return (
         <main>
             <aside>
                 <h2>Rubrik</h2>
                 <div>
-                    <img></img>
-                    <div>
-                        <h3>Text</h3>
-                        <p>Mer Text</p>
-                    </div>
+                    <AsideItem />
+                    <AsideItem />
+                    <AsideItem />
                 </div>
             </aside>
 
             <section>
-                <div>
-                    <img></img>
-                    <h3></h3>
-                </div>
+                <MainItem />
+                <MainItem />
+                <MainItem />
+                <MainItem />
+                <MainItem />
+                <MainItem />
             </section>
         </main>
     );
